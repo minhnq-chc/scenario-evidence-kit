@@ -1,0 +1,26 @@
+{
+  "id": "case-42-1-pedestrian_crossing",
+  "title": "Pedestrian Crossing 1",
+  "description": "A pedestrian crosses in fog",
+  "map_name": "DemoStraight",
+  "kind": "pedestrian_crossing",
+  "seed": 42,
+  "duration_s": 12,
+  "weather": "fog",
+  "ego_speed_mps": 11.375,
+  "actors": [
+    {
+      "id": "challenger",
+      "kind": "pedestrian",
+      "speed_mps": 1.512,
+      "start_x_m": 18.425,
+      "start_y_m": -3.5
+    }
+  ],
+  "parameters": {
+    "trigger_s": 3,
+    "lane_width_m": 3.5,
+    "maneuver_duration_s": 3,
+    "deceleration_mps2": 3
+  }
+}
